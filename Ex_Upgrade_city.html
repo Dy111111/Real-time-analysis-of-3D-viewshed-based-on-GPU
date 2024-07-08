@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>三维可视域分析实验</title>
+    <script type="text/javascript" charset="UTF-8" src="libs/three/three.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="libs/three/controls/TrackballControls.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="libs/three/loaders/GLTFLoader.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="libs/other/chroma.js"></script>
+    <script type="text/javascript" src="libs/three/postprocessing/EffectComposer.js"></script>
+    <script type="text/javascript" src="libs/three/postprocessing/ShaderPass.js"></script>
+    <script type="text/javascript" src="libs/three/postprocessing/MaskPass.js"></script>
+    <script type="text/javascript" src="libs/three/postprocessing/RenderPass.js"></script>
+    <script type="text/javascript" src="libs/three/shaders/CopyShader.js"></script>
+
+    <script type="text/javascript" src="libs/util/Stats.js"></script>
+    <script type="text/javascript" src="libs/util/dat.gui.js"></script>
+    <script type="text/javascript" src="js/Ex_Upgrate3.js"></script>
+    <link rel="stylesheet" href="css/default.css">
+
+    <style>
+        body {
+            /* set margin to 0 and overflow to hidden, to go fullscreen */
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="webgl-output">
+        <script type="text/javascript">
+            (function () {
+                // your page initialization code here
+                // the DOM will be available here
+                init()
+            })();
+        </script>
+</body>
+
+</html>
+
